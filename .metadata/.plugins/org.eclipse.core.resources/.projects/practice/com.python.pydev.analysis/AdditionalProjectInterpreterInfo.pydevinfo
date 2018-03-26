@@ -1,0 +1,55 @@
+-- VERSION_5
+-- START DISKCACHE_2
+/Users/fereydounb/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/practice/com.python.pydev.analysis/v2_indexcache
+rotate|1521513160000000000|/Users/fereydounb/eclipse-workspace/practice/src/rotate.py
+intersect|1521504287000000000|/Users/fereydounb/eclipse-workspace/practice/src/intersect.py
+wordsbreak|1521608271000000000|/Users/fereydounb/eclipse-workspace/practice/src/wordsbreak.py
+checkdup|1521422331000000000|/Users/fereydounb/eclipse-workspace/practice/src/checkdup.py
+interview|1521227097000000000|/Users/fereydounb/eclipse-workspace/practice/src/interview.py
+-- END DISKCACHE
+-- START DICTIONARY
+11
+7=/Users/fereydounb/eclipse-workspace/practice/src/checkdup.py
+4=rotate
+9=/Users/fereydounb/eclipse-workspace/practice/src/interview.py
+1=/Users/fereydounb/eclipse-workspace/practice/src/wordsbreak.py
+6=intersect
+3=/Users/fereydounb/eclipse-workspace/practice/src/rotate.py
+2=wordsbreak
+5=/Users/fereydounb/eclipse-workspace/practice/src/intersect.py
+8=checkdup
+10=interview
+11=Solution
+-- END DICTIONARY
+-- START TREE 1
+11
+N|0|
+S|2|S!1^27#1*19@S!3^21#5*35@
+add|0|
+bui|0|
+dig|0|
+k|1|k!3^23#5*35@
+n1|0|
+num|5|nums2!5^26#1*51@nums!3^22#5*35@nums!7^20#1*67@nums1!5^25#1*51@nums!9^19#5*83@
+s|4|s!5^24#1*51@s!1^28#1*19@s!7^19#1*67@s!9^20#5*83@
+sol|5|Solution!9^6#7*81@Solution!7^6#7*65@Solution!1^7#7*17@Solution!3^6#7*33@Solution!5^6#7*49@
+wor|1|wordDict!1^29#1*19@
+-- END TREE
+-- START TREE 2
+15
+__i|0|
+__m|0|
+add|0|
+con|1|containsDuplicate!11&7^7#9*66@
+dig|0|
+hea|0|
+int|1|intersect!11&5^7#9*50@
+mkn|0|
+mod|0|
+nex|0|
+pri|0|
+rem|1|removeDuplicates!11&9^7#9*82@
+rot|1|rotate!11&3^7#9*34@
+tai|0|
+wor|1|wordBreak!11&1^8#9*18@
+-- END TREE

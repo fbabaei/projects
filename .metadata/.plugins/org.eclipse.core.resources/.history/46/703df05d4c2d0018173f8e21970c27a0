@@ -1,0 +1,35 @@
+'''
+Created on Mar 21, 2018
+
+@author: fereydounb
+'''
+
+            
+class Num():
+    def __init__(self):
+        self.head = None
+        self.tail = None
+        
+    class Digit(self):
+        def __init__(self,digit):
+            self.digit = digit 
+            self.nextDigit = None 
+    def mod(self,n):
+        return n%10
+        
+    def mkNum(self,n):
+        while n > 0:
+            self.tail = self.Digit(self.mod(n))
+            n -= self.mod(n)
+        self.head.nextDigit = None
+       
+num1 = Num()
+num2 = Num()
+
+def addNums(num1,num2):
+    return num1 + num2
+N = Num()
+n1 = N.mkNum(102)
+
+
+            

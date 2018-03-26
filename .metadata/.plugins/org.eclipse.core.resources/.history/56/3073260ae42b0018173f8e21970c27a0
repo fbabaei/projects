@@ -1,0 +1,20 @@
+'''
+Created on Mar 19, 2018
+
+@author: fereydounb
+'''
+class Solution(object):
+    def wordBreak(self, s, wordDict):
+        """
+        :type s: str
+        :type wordDict: List[str]
+        :rtype: List[str]
+        """
+        for w in s:
+            s2 = ' '.join(s.split('w'))
+            print s2
+        return s2    
+S = Solution()
+s = 'catsanddog'
+wordDict = ["cat","cats","and","sand","dog"]
+print S.wordBreak(s, wordDict)

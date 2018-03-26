@@ -1,0 +1,17 @@
+'''
+Created on Mar 17, 2018
+
+@author: fereydounb
+'''
+class Solution(object):
+    def rotate(self, nums, k):
+        """
+        :type nums: List[int]
+        :type k: int
+        :rtype: void Do not return anything, modify nums in-place instead.
+        """
+        i = 0
+        while i <= k:
+            nums.append(nums.pop())
+            i++
+        return nums    

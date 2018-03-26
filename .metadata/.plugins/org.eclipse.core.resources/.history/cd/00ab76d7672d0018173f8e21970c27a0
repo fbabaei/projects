@@ -1,0 +1,42 @@
+'''
+Created on Mar 21, 2018
+
+@author: fereydounb
+'''
+class Digit():
+    def __init__(self,digit=None):
+        self.digit = digit
+        self.next = None
+            
+class Num():
+    def __init__(self,n):
+        self.head = Digit(divmod(n, 10))
+        print self.head.digit
+        self.tail = self.head
+        self.__mkNum__(n)
+  
+    def __mkNum__(self,n):
+        n = n/10
+        while n > 0:
+            self.tail.next = Digit(divmod(n, 10))
+            self.tail = self.tail.next
+            n = n/10
+            
+    def printNum(self):
+        self.tail = self.head
+        print self.tail.digit
+        while self.tail.next:
+            print self.tail.next.digit
+            self.tail = self.tail.next
+        
+       
+num1 = Num(1090)
+num2 = Num(108)
+
+def addNums(num1,num2):
+    return num1 + num2
+N = Num(1090102)
+N.printNum()
+
+
+            

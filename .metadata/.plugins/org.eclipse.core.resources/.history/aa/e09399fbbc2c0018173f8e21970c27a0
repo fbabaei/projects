@@ -1,0 +1,29 @@
+'''
+Created on Mar 19, 2018
+
+@author: fereydounb
+'''
+from __builtin__ import next
+class Solution(object):
+    def wordBreak(self, s, wordDict):
+        """
+        :type s: str
+        :type wordDict: List[str]
+        :rtype: List[str]
+        """
+        wd1 = []
+        temp1 = s
+        for w in wordDict:
+            if w in temp1:
+                temp1 = temp1.replace(w, w+' ')
+                print w,wd1.append(w)
+        wd2 = [w for w in wordDict if w not in wd1]
+        temp2 = s
+        for w in wd2:
+            temp2 = temp2.replace(w, w+' ')
+        
+        return [temp1,temp2]       
+S = Solution()
+s = 'catsanddog'
+wordDict = ["cat","cats","and","sand","dog"]
+print S.wordBreak(s, wordDict)
